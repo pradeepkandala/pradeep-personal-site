@@ -1,0 +1,12 @@
+.app {
+  font-family: 'Crimson Text', 'Times New Roman', serif;
+  line-height: 1.7;
+  color: #2c2c2c;
+  background-color: #fefefe;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: 70px; /* for fixed header */
+}
