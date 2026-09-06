@@ -5,12 +5,10 @@ const About = () => {
     <section id="about" className="about">
       <div className="about-container">
         <h2>About</h2>
-        <p>I am a senior Java engineer with deep experience in backend systems, API architecture, automation, and production reliability.</p>
-        <p>Over the years, I learned that engineering is not only about shipping fast—it is about building systems people can trust.</p>
-        <p>My work lives at the intersection of technology, responsibility, and long-term thinking.</p>
-        <p>I am especially drawn to products that reduce noise instead of manufacturing it, and to systems that respect human dignity instead of exploiting attention.</p>
-        <p>Alongside engineering, I spend time studying philosophy, the Bhagavad Gita, Vedic thought, and disciplines like Sri Rudram—not as identity markers, but as frameworks for clarity, discipline, and responsibility.</p>
-        <p>Some of the best systems thinking I have found exists both in distributed architecture and in older civilizational frameworks that survived because they understood human nature.</p>
+        <p>I&apos;m a backend engineer and technical lead who has spent much of my career taking complex, long-lived enterprise systems and figuring out how to move them forward.</p>
+        <p>My work spans hands-on Java and Spring Boot development, microservices and API design, technical architecture, production systems, and engineering leadership. I&apos;ve worked across insurance, financial services, manufacturing and telecommunications, often at the intersection of legacy modernization and new platform development.</p>
+        <p>I enjoy staying close to the engineering while also working with teams, architects and business stakeholders to turn requirements into systems that can actually be built and operated.</p>
+        <p>Outside my enterprise work, I independently build Maitri, which gives me the opportunity to own a product across backend, web and mobile development.</p>
       </div>
     </section>
   )

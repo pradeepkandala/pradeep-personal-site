@@ -12,15 +12,15 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <a href="#hero">Pradeep Kandala</a>
+          <a href="#hero">Pradeep Kumar Kandala</a>
         </div>
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
           <ul className="nav-list">
             <li><a href="#hero" onClick={() => setIsMenuOpen(false)}>Home</a></li>
             <li><a href="#about" onClick={() => setIsMenuOpen(false)}>About</a></li>
-            <li><a href="#principles" onClick={() => setIsMenuOpen(false)}>Principles</a></li>
+            <li><a href="#experience" onClick={() => setIsMenuOpen(false)}>Experience</a></li>
             <li><a href="#projects" onClick={() => setIsMenuOpen(false)}>Projects</a></li>
-            <li><a href="#writing" onClick={() => setIsMenuOpen(false)}>Writing</a></li>
+            <li><a href="#expertise" onClick={() => setIsMenuOpen(false)}>Expertise</a></li>
             <li><a href="#contact" onClick={() => setIsMenuOpen(false)}>Contact</a></li>
           </ul>
         </nav>

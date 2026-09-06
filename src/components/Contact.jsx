@@ -5,19 +5,11 @@ const Contact = () => {
     <section id="contact" className="contact">
       <div className="contact-container">
         <h2>Contact</h2>
-        <p>
-          For serious conversations around engineering, product building, AI governance, or thoughtful collaboration.
-        </p>
-        <p>
-          I value depth over volume.
-        </p>
-        <p>
-          If the work matters, I am always open to the conversation.
-        </p>
+        <p>I&apos;m interested in challenging backend, architecture and technical leadership opportunities, as well as conversations around building and modernizing complex software systems.</p>
+        <p>Argyle, Texas, USA</p>
         <div className="contact-links">
-          <a href="mailto:pradeep@example.com">Email</a>
-          <a href="https://linkedin.com/in/pradeepkandala">LinkedIn</a>
-          <a href="https://github.com/pradeepkandala">GitHub</a>
+          <a href="mailto:kpradeepster@gmail.com">kpradeepster@gmail.com</a>
+          <a href="https://www.linkedin.com/in/kpradeepster/">LinkedIn</a>
         </div>
       </div>
     </section>

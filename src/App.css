@@ -1,8 +1,8 @@
 .app {
   font-family: 'Crimson Text', 'Times New Roman', serif;
   line-height: 1.7;
-  color: #2c2c2c;
-  background-color: #fefefe;
+  color: var(--text);
+  background-color: var(--bg);
   margin: 0;
   padding: 0;
 }

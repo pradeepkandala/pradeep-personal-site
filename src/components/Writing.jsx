@@ -1,26 +1,25 @@
 import './Writing.css'
 
 const Writing = () => {
-  const articles = [
-    { title: 'Why Quiet Software Matters', description: 'Most software is designed for retention, not peace. I believe products should reduce noise, not manufacture it.' },
-    { title: 'Dharma and Product Design', description: 'Restraint, responsibility, and consequences matter in product decisions. Sometimes what we choose not to build matters most.' },
-    { title: 'AI, Responsibility, and Human Agency', description: 'The future of AI is not only capability—it is governance, alignment, and protecting human dignity.' },
-    { title: 'Building Trust in an Addictive Internet', description: 'Trust is built when users are treated as people, not engagement metrics.' }
+  const expertise = [
+    { title: 'Backend & Distributed Systems', description: 'Java, Spring Boot, Spring MVC, Spring Batch, Microservices, REST APIs and Kafka.' },
+    { title: 'Data & Persistence', description: 'Oracle, PL/SQL, MongoDB, MySQL, SQL Server, JPA and Hibernate.' },
+    { title: 'Security & Testing', description: 'Spring Security, OAuth, JUnit and Mockito.' },
+    { title: 'Delivery & Production Support', description: 'Jenkins, Gradle, Maven, Git/GitHub, SonarQube, PCF, Datadog, Splunk and Unix/Linux.' },
+    { title: 'Web & Supporting Technologies', description: 'React, Angular, Python and BPMN 2.0.' },
+    { title: 'Architecture & Technical Leadership', description: 'API Design, Distributed Systems, System Modernization, Technical Architecture, Production Troubleshooting and Mentoring. Requirements analysis, release planning and stakeholder collaboration.' }
   ]
 
   return (
-    <section id="writing" className="writing">
+    <section id="expertise" className="writing">
       <div className="writing-container">
-        <h2>Writing / Thinking</h2>
-        <p className="writing-intro">
-          I write occasionally about technology, responsibility, civilization, and the systems we choose to normalize.
-          Some thoughts deserve more than a timeline post.
-        </p>
+        <h2>Technical Expertise</h2>
+        <p className="writing-intro">Backend engineering, enterprise modernization and the tools used to build, test, deliver and support production systems.</p>
         <div className="writing-grid">
-          {articles.map((article, index) => (
-            <div key={index} className="article-card">
-              <h3>{article.title}</h3>
-              <p>{article.description}</p>
+          {expertise.map((area) => (
+            <div key={area.title} className="article-card">
+              <h3>{area.title}</h3>
+              <p>{area.description}</p>
             </div>
           ))}
         </div>

@@ -1,6 +1,6 @@
 .writing {
   padding: 140px 40px;
-  background-color: #fefefe;
+  background-color: var(--surface);
 }
 
 .writing-container {
@@ -13,7 +13,7 @@
   font-size: 2.5rem;
   font-weight: 300;
   margin-bottom: 60px;
-  color: #2c2c2c;
+  color: var(--text);
   letter-spacing: 0.05em;
 }
 
@@ -21,7 +21,7 @@
   text-align: center;
   font-size: 1.3rem;
   line-height: 1.8;
-  color: #555;
+  color: var(--text-muted);
   font-weight: 400;
   max-width: 800px;
   margin: 0 auto 80px;
@@ -36,25 +36,25 @@
 .article-card {
   background-color: transparent;
   padding: 40px 0;
-  border-bottom: 1px solid rgba(44, 44, 44, 0.1);
+  border-bottom: 1px solid var(--border);
   transition: all 0.3s ease;
 }
 
 .article-card:hover {
   transform: translateY(-5px);
-  border-bottom-color: rgba(44, 44, 44, 0.3);
+  border-bottom-color: var(--accent);
 }
 
 .article-card h3 {
   font-size: 1.4rem;
   font-weight: 500;
   margin-bottom: 20px;
-  color: #2c2c2c;
+  color: var(--text);
   letter-spacing: 0.02em;
 }
 
 .article-card p {
-  color: #666;
+  color: var(--text-muted);
   line-height: 1.7;
   font-size: 1rem;
 }
